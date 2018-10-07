@@ -11,6 +11,8 @@ Created using:
 
 Joke Generator is a serverless API that queries a joke site every five minutes and stores the queries in a database. The database is then called using API Gateway to display new jokes to the user. Jokes can be retrieved: randomly, all at once, or through a joke_id search.
 
+![Diagram] (jokegendiatrue.png)
+
 ## CloudWatch
 
 A CloudWatch rule is used to incrementally store jokes from an external source. The rule will then make a call to be processed through lambda and finally stored into DynamoDB.  
