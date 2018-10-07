@@ -11,7 +11,7 @@ Created using:
 
 Joke Generator is a serverless API that queries a joke site every five minutes and stores the queries in a database. The database is then called using API Gateway to display new jokes to the user. Jokes can be retrieved: randomly, all at once, or through a joke_id search.
 
-![Diagram] (jokegendiatrue.png)
+![Diagram of Design](https://i.imgur.com/ZYVfKRP.png)
 
 ## CloudWatch
 
